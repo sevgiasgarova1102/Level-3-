@@ -1,0 +1,16 @@
+level3.5
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, cem = 0;
+    cout << "Eded daxil edin: ";
+    cin >> n;
+
+    while (n != 0) {
+        cem += n % 10;
+        n /= 10;
+    }
+    cout << "Reqemleri cemi: " << cem;
+    return 0;
+}
