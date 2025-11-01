@@ -1,0 +1,17 @@
+level3.15
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, eded, cem = 0;
+    cout << "Nece eded daxil edeceksiniz: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        cout << i << ". ededi daxil edin: ";
+        cin >> eded;
+        cem += eded;
+    }
+    cout << "Cem = " << cem;
+    return 0;
+}
