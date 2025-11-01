@@ -1,0 +1,14 @@
+level3.4
+#include <iostream>
+using namespace std;
+int main() {
+    int n, fakt = 1;
+    cout << "Eded daxil edin: ";
+    cin >> n;
+
+    for (int i = 1; i <= n; i++) {
+        fakt *= i;
+    }
+    cout << "Faktorial = " << fakt;
+    return 0;
+}
