@@ -1,0 +1,24 @@
+level3.13
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n, m, ters = 0;
+    cout << "Eded daxil edin: ";
+    cin >> n;
+
+    m = n;
+    while (m != 0) {
+        ters = ters * 10 + (m % 10);
+        m /= 10;
+    }
+
+    cout << "Tersi: " << ters << endl;
+
+    if (n == ters) {
+        cout << "Palindrome ededdir.";
+    } else {
+        cout << "Palindrome deyil.";
+    }
+    return 0;
+}
